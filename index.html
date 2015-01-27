@@ -20,7 +20,7 @@
     <link href="css/jumbotron.css" rel="stylesheet">
 	 
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/main.js"></script>
+	
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -43,7 +43,7 @@
         <h1 align="center" id="gray">Welcome to <span id="black">Academy</span><span id="gold">Hacks</span></h1>
 		<h2 align="center"> May 16-17, 2015</h3>
         <p align="center"> This is going to be <em>EPIC.</em></p>
-        <p align="center"><a class="btn btn-primary btn-lg" href="#faq-container" role="button">Learn more <br /> <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></p>
+        <p align="center"><a id="learnMoreButton" class="btn btn-primary btn-lg"  role="button">Learn more <br /> <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></p>
       </div>
     </div>
 	
@@ -56,10 +56,12 @@
     
     <div class="col-md-4">
       <div class = "faq">
-        <h2>What is AcademyHacks?</h2>
-        <p>AcademyHacks is a high school hackathon geared towards helping students learn how to code. We are one of the first high school hackathons and gurantee the event will be awesome.  </p>
+        <h2 id="hi">What is AcademyHacks?</h2>
+        <p>AcademyHacks is a high school hackathon geared towards helping students learn how to code. We are one of the first high school hackathons and guarantee the event will be awesome.  </p>
        </div>
        </div>
+	   
+	   
      
       <div class="col-md-4">
       <div class = "faq">
@@ -131,15 +133,20 @@
 
       <footer>
         <p id="footer">&copy; AcademyHacks 2015</p>
+
       </footer>
     </div> <!-- /container -->
 	
 	 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap-3.3.2/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+	
+	<script src="js/main.js"></script>
+	
   </body>
 </html>

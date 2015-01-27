@@ -1,3 +1,5 @@
+
+
 function initialize(){
 	var mapCanvas = document.getElementById("map-canvas");
 	var mapOptions = {
@@ -7,5 +9,16 @@ function initialize(){
 	  scrollwheel: false
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
-}
+}		
+		
 google.maps.event.addDomListener(window, 'load', initialize);
+
+
+$(document).ready(function(){
+	$("#learnMoreButton").click(function(){
+		$('html, body').animate({
+		scrollTop: $("#faq-container").offset().top-50},
+		1000);
+	});
+
+});
