@@ -1,32 +1,120 @@
 <!DOCTYPE html>
-<head>
-  <title>Academy Hacks</title>
-  <style>
-    body {
-      text-align: center;
-      background: url("http://dash.ga.co/assets/anna-bg.png");
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 22px;
-    }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
-  </style>
-</head>
-<body>
-  <img src="Academy Edison.jpg">
-  <p>Registration for AcademyHacks is coming soon!</p>
-  <input type="email" placeholder="Your email">
-  <input type="submit">
-</body>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+  
+    <title>AcademyHacks</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	
+	<!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+	 
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">AcademyHacks</a>
+        </div>
+      </div>
+    </nav>
+	
+	<!-- Main Area -->
+	<div class="jumbotron">
+      <div class="container">
+        <h1 align="center" id="gray">Welcome to <span id="black">Academy</span><span id="gold">Hacks</span></h1>
+		<h2 align="center"> May 16-17, 2015</h3>
+        <p align="center"> This is going to be <em>EPIC.</em></p>
+        <p align="center"><a class="btn btn-primary btn-lg" href="#faq-container" role="button">Learn more <br /> <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></p>
+      </div>
+    </div>
+	
+	<div id="map-canvas"></div>
+	<a href="https://www.google.com/maps?saddr=Current+Location&daddr=1925+N+12th+St+Philadelphia+PA" target="_blank"> Location TBD </a>
+	
+	<div class="container" id="faq-container">
+      <!-- Example row of columns -->
+      <div class="row">
+	  
+		<div class="col-md-4">
+			<div class = "faq">
+			  <h2>What is a hackathon?</h2>
+			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			 </div>
+       </div>
+	   
+	   <div class="col-md-4">
+			<div class = "faq">
+			  <h2>What if I can't code?</h2>
+			  <p>onec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa </p>
+			</div>
+        </div> 
+	  
+        <div class="col-md-4">
+			<div class = "faq">
+			  <h2>Who can attend? Are there teams?</h2>
+			  <p>onec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa </p>
+			</div>
+        </div> 	   
+		
+      </div>
+	  
+	  <div class="row">
+	  
+		<div class="col-md-4">
+			<div class = "faq">
+			  <h2>What should I bring?</h2>
+			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			 </div>
+       </div>
+	   
+	   <div class="col-md-4">
+		<div class = "faq">
+          <h2>What if I can't code?</h2>
+          <p>onec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa </p>
+		  </div> 
+        </div> 
+	  
+        <div class="col-md-4">
+		<div class = "faq">
+          <h2>Can I be a mentor?</h2>
+          <p>eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condime</p>
+		  </div> 
+        </div> 	   
+		
+      </div>
+
+      <hr>
+
+      <footer>
+        <p id="footer">&copy; AcademyHacks 2015</p>
+      </footer>
+    </div> <!-- /container -->
+	
+	 <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap-3.3.2/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

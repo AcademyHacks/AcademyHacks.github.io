@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #DCDCDC;
+}
+
+.jumbotron {
+	background-color: #F5F5DC;
+}
+
+.question {
+	display: block;
+	color: white;
+}
+
+
+.faq{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #DAA520;
+	border-radius: 30px;
+	border: 1px solid #ddd;
+	border: 1px solid rgba(86,61,124,.2);
+	margin: 10px;
+	text-align: center;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 400px;
+}
+
+#footer{ text-align: center}
+
+	
+#black { color: #000000}
+#gold { color: #DAA520}
+#gray { color: #708090}
+#white {color: #FFFFFF}
